@@ -1,0 +1,16 @@
+:root {
+  --width-minimum: 360px;
+  --height-minimun: 640px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+body {
+  width: 100vw;
+  min-width: var(--width-minimum);
+  min-height: var(--height-minimun);
+}
+button {
+  border: none;
+}
+a {
+  text-decoration: none;
+}

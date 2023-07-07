@@ -1,0 +1,20 @@
+#btn-write {
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  height: 60px;
+  border-radius: 30px;
+  position: fixed;
+  right: 20px;
+  bottom: 120px;
+  display: flex;
+  align-items: center;
+}
+
+#btn-write:hover {
+  cursor: pointer;
+  background-color: rgb(255, 153, 0);
+}
