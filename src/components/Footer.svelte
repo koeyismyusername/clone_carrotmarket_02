@@ -43,7 +43,7 @@
     </a>
     <a class="item my" href="#/my">
       <div class="icon">
-        {#if window.location.hash === "#/place"}
+        {#if window.location.hash === "#/my"}
           <span class="material-icons"> person </span>
         {:else}
           <span class="material-icons-outlined"> person </span>
