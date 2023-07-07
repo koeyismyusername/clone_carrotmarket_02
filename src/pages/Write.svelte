@@ -1,5 +1,8 @@
 <script>
   import Footer from "../components/Footer.svelte";
+  import { getDatabase } from "firebase/database";
+
+  const database = getDatabase();
 </script>
 
 <h1>글쓰기</h1>
